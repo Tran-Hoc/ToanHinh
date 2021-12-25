@@ -14,5 +14,9 @@ namespace ToanHinh
         {
             return canh * canh;
         }
+        public double chuvi()
+        {
+            return canh * 4;
+        }
     }
 }
