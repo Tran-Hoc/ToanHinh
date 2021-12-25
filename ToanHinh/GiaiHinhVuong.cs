@@ -1,22 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace ToanHinh
 {
-    class GiaiHinhVuong
+    public partial class GiaiHinhVuong: Form
     {
-        public string ten;
-        public double canh;
-        public double dienTich()
+        public GiaiHinhVuong()
         {
-            return canh * canh;
-        }
-        public double chuvi()
-        {
-            return canh * 4;
+            InitializeComponent();
         }
     }
 }

@@ -53,10 +53,11 @@ namespace ToanHinh
             this.btnHinhvuong.TabIndex = 9;
             this.btnHinhvuong.Text = "Hình vuông";
             this.btnHinhvuong.UseVisualStyleBackColor = true;
+            this.btnHinhvuong.Click += new System.EventHandler(this.btnHinhvuong_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 32F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(1090, 653);
@@ -65,6 +66,7 @@ namespace ToanHinh
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.ResumeLayout(false);
 

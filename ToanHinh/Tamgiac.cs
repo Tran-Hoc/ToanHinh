@@ -53,5 +53,10 @@ namespace ToanHinh
             textBox1.Text = str;
             // ljkdhflafhaldhalsk
         }
+
+        private void Tamgiac_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

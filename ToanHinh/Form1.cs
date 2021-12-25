@@ -29,5 +29,11 @@ namespace ToanHinh
             Tamgiac tg = new Tamgiac();
             tg.Show();
         }
+
+        private void btnHinhvuong_Click(object sender, EventArgs e)
+        {
+            GiaiHinhVuong f = new GiaiHinhVuong();
+            f.Show();
+        }
     }
 }
