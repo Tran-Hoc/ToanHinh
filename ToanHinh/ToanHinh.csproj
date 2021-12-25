@@ -54,6 +54,7 @@
     </Compile>
     <Compile Include="GiaiHinhVuong.cs" />
     <Compile Include="GiaiTamGiac.cs" />
+    <Compile Include="GiaThuyet\Lythuyet.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tamgiac.cs">

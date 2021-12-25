@@ -51,7 +51,7 @@ namespace ToanHinh
             tg.dodaicanhday = Double.Parse(txtDaiDay.Text);
             var str = string.Format("\nCho tam giác {0}\n Có đường cao {1} và độ dài là {2} cm \nCó cạnh đáy {3} và độ dài là{4} cm \nDiện tích là {5} cm2", tg.tentamgiac, tg.tenduongcao, tg.dodaiduongcao, tg.tencanhday, tg.dodaicanhday, tg.dienTichCaoDay());
             textBox1.Text = str;
-            // ljkdhflafhaldhalsk
+            
         }
     }
 }
